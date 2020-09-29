@@ -3,14 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>Dado de Dungeons</title>
-    <script src="js\app.js"></script>
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <main>
     <h1 id = "resultado">0</h1>
   </main>
   <body>
-    <button type="button" name="button" onclick="minus()"></button>
-    <button type="button" name="button" onclick="roll()"></button>
-    <button type="button" name="button" onclick="more()"></button>
+
+    <img src="img/left.png" alt="Die of 20 faces" onclick="minus()">
+    <img src="img/d20.png" alt="Die of 20 faces" id = "die" onclick="roll()">
+    <img src="img/right.png" alt="Die of 20 faces" onclick="more()">
+    <p id="history"></p>
+
+    <script src="js\app.js"></script>
+
   </body>
 </html>
