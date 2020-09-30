@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;800;900&display=swap');
 
 h1 {
-  color: white;
+  color: black;
   text-align: center;
   font-size: 60px;
   font-family: 'Kanit', sans-serif;
@@ -9,12 +9,12 @@ h1 {
 }
 
 body{
-  background-color: black;
+  background-color: white;
   text-align: center;
 }
 
 p{
-  color: white;
+  color: black;
   font-family: 'Kanit', sans-serif;
   text-align: center;
   font-size: 15px;

@@ -75,4 +75,4 @@ const more = () => {
 
 let actualface = 4;
 const dice = ["4","6","8","12","20"];
-const diceimgurl = ["img/d4.png","img/d6.png","img/d20.png","img/d20.png","img/d20.png"];
+const diceimgurl = ["img/d4.png","img/d6.png","img/d8.png","img/d12.png","img/d20.png"];
